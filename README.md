@@ -41,32 +41,31 @@
 
 ## Challenge 1
 
-[screenshot](YCheckpoint1.png)
+![screenshot](YCheckpoint1.png?raw=true)
 
 62
 
 ## Challenge 2
 
-[screenshot](YCheckpoint2.png)
+![screenshot](YCheckpoint2.png?raw=true)
 
 Answer: 110.08333 mph
 
 ## Challenge 3
 
-[screenshot](YCheckpoint3.png)
+[![screenshot](YCheckpoint3.png?raw=true)
 
 Answer: 31305
 
 ## Challenge 4
 
-[screenshot](YCheckpoint4.png)
+![screenshot](YCheckpoint4.png?raw=true)
 
 Answer: 522104
 
 ## Challenge 5
 
-[screenshot](YCheckpoint5.png)
-
+![screenshot](YCheckpoint5.png?raw=true)
 
 Answer: 185907
 
