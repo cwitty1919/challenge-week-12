@@ -1,6 +1,6 @@
 #!/usr/bin/env python2.7
 
-import ujson as json
+import json
 import csv
 from itertools import islice
 from collections import (defaultdict, Counter)

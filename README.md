@@ -2,23 +2,35 @@
 
 # Name: Chris Wittenberg
 
+Points Earned: 70
+
 # Reddit Data Challenges
 
 ## Challenge 1
 
-[Insert Screenshot]
+![screenshot](RCheckpoint1.png?raw=true)
 
 ## Challenge 2
 
-[Explain what's interesting]
+There are subreddits for EVERYTHING!
+
+![screenshot](RCheckpoint2.png?raw=true)
+
+Also, people really like to Ask Reddit and look at Advice for Animals.
+
+![screenshot](RCheckpoint2.png?raw=true)
 
 ## Challenge 3
 
-[Explain possible Insights]
+You can find out what are the most popular subreddits based on this data by aggregating the number of posts based on subreddits. 
+
+![screenshot](RCheckpoint2.png?raw=true)
 
 ## Challenge 4
 
-[What it would tell you about the Reddit Community]
+It would tell us about the real interests of the Reddit Community. 
+
+![screenshot](RCheckpoint4.png?raw=true)
 
 ## Challenge 5
 
