@@ -16,19 +16,19 @@ There are subreddits for EVERYTHING!
 
 ![screenshot](RCheckpoint2.png?raw=true)
 
-Also, people really like to Ask Reddit and look at Advice for Animals.
+Also, people really like to Ask Reddit, find something humorous, and look at Advice for Animals.
 
-![screenshot](RCheckpoint2.png?raw=true)
+![screenshot](RCheckpoint4.png?raw=true)
 
 ## Challenge 3
 
 You can find out what are the most popular subreddits based on this data by aggregating the number of posts based on subreddits. 
 
-![screenshot](RCheckpoint2.png?raw=true)
+![screenshot](RCheckpoint4.png?raw=true)
 
 ## Challenge 4
 
-It would tell us about the real interests of the Reddit Community. 
+It would tell us about the real interests of the Reddit Community.
 
 ![screenshot](RCheckpoint4.png?raw=true)
 
