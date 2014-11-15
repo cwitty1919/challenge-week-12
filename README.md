@@ -2,7 +2,7 @@
 
 # Name: Chris Wittenberg
 
-Points Earned: 70
+Points Earned: 95
 
 # Reddit Data Challenges
 
@@ -39,15 +39,15 @@ It would tell us about the real interests of the Reddit Community.
 
 ## Challenge 6
 
-[Bias in answer]
+The data is biased toward incumbent subreddits because these subreddits are the ones getting visited, and therefore upvoted. However, newer subreddits will not get as much traffic and nearly as many upvotes. This would change my conclusion because it would change the subredits that would be analyzed, and therefore the users we would look at. 
 
 ## Challenge 7
 
-[Other Biases]
+The data is also biased based on positivity. Reddit is very well-know for being laden with users known as "trolls". Comments of trolls are extremely deragatory in nature and will not be upvoted, but due to Reddit's reputation for trolls I am sure there are a lot of trollish comments that are not getting looked at, not to mention users with tendency to leave deragatory comments all over Reddit that would be ignored.
 
 ## Challenge 8
 
-[How may you try and prove the bias]
+I would query the top 50 subreddits based on total comments using MongoDB and compare them to what the python code decided what the top 50 subreddits are. 
 
 # Yelp and Weather 
 
