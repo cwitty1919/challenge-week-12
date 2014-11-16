@@ -2,7 +2,7 @@
 
 # Name: Chris Wittenberg
 
-Points Earned: 95
+Points Earned: 98
 
 # Reddit Data Challenges
 
@@ -34,8 +34,21 @@ It would tell us about the real interests of the Reddit Community.
 
 ## Challenge 5
 
-[Link to Code or pasted code]
+These are MongoDB Querries
+
+Query1 = db.reddit.aggregate([ {$group: { _id: "$subreddit", count: {$sum: 1}}},{$sort: {"count": -1}}]), array = [];
+
+for (i = 0; i < 50; i++) array.push(Query1[i]["_id"]);
+
+Query2 = db.reddit.find({"subreddit": {$in: array}}, {"_id" : 0, "name": 1 }), array2 = [], num = db.reddit.count({"subreddit": {$in: array}});
+
+for (i = 0; i < num; i++) array.push(Query1[i]["name"]);
+
+Query1 = db.reddit.aggregate([ $match: {"name": {$in: array2}}, {$group: { _id: "$subreddit", count: {$sum: 1}}},{$sort: {"count": -1}}]), array = [];
+
 [Answer]
+
+I could not get this working with MongoDB. It does not support relational calculations very well, and the dataset was so monstrously huge that queries took forever to run. Also, I could not get the python code to work because my python interpreter did not recognize the libraries. 
 
 ## Challenge 6
 
