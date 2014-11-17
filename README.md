@@ -52,13 +52,21 @@ I could not get this working with MongoDB. It does not support relational calcul
 
 ## Challenge 6
 
-The data is biased toward incumbent subreddits because these subreddits are the ones getting visited, and therefore upvoted. However, newer subreddits will not get as much traffic and nearly as many upvotes. This would change my conclusion because it would change the subredits that would be analyzed, and therefore the users we would look at. 
+The above analysis would be affected because there may be a ton of "ghost users" that have obscure comments (having less than 10 upvotes) that our analysis is completely missing.
 
 ## Challenge 7
 
-The data is also biased based on positivity. Reddit is very well-know for being laden with users known as "trolls". Comments of trolls are extremely deragatory in nature and will not be upvoted, but due to Reddit's reputation for trolls I am sure there are a lot of trollish comments that are not getting looked at, not to mention users with tendency to leave deragatory comments all over Reddit that would be ignored.
+This would change my conclusion because our analysis only picks up users who get noticed, so the conclusion would be that these top two subreddits have the most users that are somewhat popular, not necessarily users that are shared in total. 
 
 ## Challenge 8
+
+The data is biased toward incumbent subreddits because these subreddits are the ones getting visited, and therefore upvoted. However, newer subreddits will not get as much traffic and nearly as many upvotes. 
+
+## Challenge 9
+
+The data is also biased based on positivity. Reddit is very well-know for being laden with users known as "trolls". Comments of trolls are extremely deragatory in nature and will not be upvoted, but due to Reddit's reputation for trolls I am sure there are a lot of trollish comments that are not getting looked at, not to mention users with tendency to leave deragatory comments all over Reddit that would be ignored.
+
+## Challenge 10
 
 I would query the top 50 subreddits based on total comments using MongoDB and compare them to what the python code decided what the top 50 subreddits are. 
 
